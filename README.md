@@ -1,2 +1,2 @@
-# SandSPGLLC.com
+# sandspgllc.com
 Web Page repository
