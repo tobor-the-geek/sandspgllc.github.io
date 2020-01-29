@@ -1,2 +1,2 @@
-# SandSPGLLC.github.io
+# SandSPGLLC.com
 Web Page repository
