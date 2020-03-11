@@ -24,8 +24,8 @@ img {vertical-align: middle;}
   font-family: "New Century Schoolbook", serif;
   font-size: 200%;
   padding: 8px 10px;
-  position: fixed;
-  top: 145px;
+  position: absolute;
+  top: 125px;
   width: 45%;
   max-width: 400px;
   text-align: left;
@@ -36,8 +36,8 @@ img {vertical-align: middle;}
   color: lightgray;
   font-size: 100%;
   padding: 8px 12px;
-  position: fixed;
-  top: 125px;
+  position: absolute;
+  top: 112px;
 }
 
 /* The dots/bullets/indicators */
@@ -97,19 +97,19 @@ body {
 .empty1 {position: relative; width: 100%; height: 130px;}
 .empty0 {position: relative; width: 100%; height: 25px;}
 .empty10 {position: relative; width: 100%; height: 1000px;}
-.center9 {margin: auto; width: 90%; border: 3px solid PaleGreen; padding: 1%;}
+.center9 {margin: auto; width: 90%; padding: 1%;}
 .center5 {margin: auto; width: 50%; border: 3px solid PaleGreen; padding: 1%;}
 .left9 {position: relative; left: 2%; width: 90%; padding: 1%;}
 .left8 {position: relative; left: 25%; width: 80%; border: 3px solid PaleGreen; padding: 1%;}
 .left7 {position: relative; left: 50%; width: 73%; border: 3px solid PaleGreen; padding: 1%;}
 .right9 {position: relative; right: 20%; width: 90%; border: 3px solid PaleGreen; padding: 1%;}
-.launch {position: relative; left: 1%; width: 35%; min-width: 250px; max-width: 460px; padding: 1%;}
+.launch {position: relative; left: 1%; width: 35%; min-width: 250px; max-width: 460px; background-color: Gainsboro; border: 2px solid silver; padding: 0px;}
 </style>
 </head>
 <br>
   <h2>What you may find here</h2>
-  <img style="float: right; margin: 0px 100px 0px 0px; width: 5%; max-width:200px" alt="Logo-small"  src="images/Logo-2.png"/>
-  Go directly to a pages click slide, static links below.
+  <p>Go directly to a pages click slide, static links <a href="#launch">below</a>.</p>
+<br>
 <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext">1 / 8</div>
@@ -194,11 +194,11 @@ function showSlides() {
 </script>
 <!-Page space ->
 <div class="empty0";><p><span> </p></span></div>
-<div class="empty0";><p><span style="color: Gainsboro;">
-  Under Construction, please check back later.
-  </p></span></div>
+<div class="empty0";><p><span style="color: silver;">Under Construction, please check back later.</p></span></div>
+<div class="center9";><img style="fixed: left; margin: 0px 5px; border: 2px solid silver; padding: 0px; width: 100%; max-width:600px;" alt="&nbsp;Logo image" src="images/Logo-2.png" /></div>
 <br style="clear:both" />
-<div class="launch";><p style="background-color: Gainsboro;">
+<a id="launch">
+<div class="launch";><span>
 <a href="index.html">Home</a> ||
 <a href="Seller-P1.html">Sell</a> ||
 <a href="Buyer-P1.html">Buy</a> ||
@@ -208,7 +208,7 @@ function showSlides() {
 <a href="About-Us-P1.html">About</a> ||
 <a href="Mission-1.html">Mission</a> ||
 <a href="Contact-1.html">Contact</a>
-</p></div>
+</span></div>
 <p>
 <HR>
 <P align="right"; style="color:White;"> page 0 V2</P>
