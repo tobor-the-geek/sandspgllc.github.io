@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta content="text/html; charset=UTF-8" http-equiv="content-type" name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" name="viewport" content="width=device-width, initial-scale=1.0">
 <title>S and S Property Group Landing Page</title>
-  <!-  href="http://tobor-the-geek.github.io/sandsproperties.com/" ->
+  <!-  href="http://tobor-the-geek.github.io/sanadsproperties.com/" ->
 <style>
 * {box-sizing: border-box;}
 .mySlides {display: none;}
@@ -11,44 +11,49 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  width:95%
-  /max-width: 800px;/
-  position: fixed;
-  top: 75px;
-  margin: left 3px;
+  width:60vw;
+  height: 45vw;
+  position: relative;
+  margin: left 15px;
 }
 
 /* Caption text */
 .text {
   color: lightgray;
   font-family: "New Century Schoolbook", serif;
-  font-size: 200%;
-  padding: 8px 10px;
+  font-size: 2vw;
+  padding: 1% 5%;
   position: absolute;
-  top: 122px;
-  width: 45%;
-  max-width: 400px;
+  bottom: 5%;
+  width: 100%;
+  text-align: right;
+}
+
+.text4 {
+  color: black;
+  font-family: "New Century Schoolbook", serif;
+  font-size: 2vw;
+  padding: 1% 5%;
+  position: absolute;
+  bottom: 10%;
+  width: 55%;
   text-align: left;
 }
 
-/* Number text (1/8 etc)  color: #f2f2f2;*/
+/* Number text (1/3 etc)  color: #f2f2f2;*/
 .numbertext {
   color: lightgray;
-  font-size: 100%;
-  text-align: right;
-  padding: 8px 2px;
+  font-size: 1vw;
+  padding: 1% 5%;
   position: absolute;
-  /*bottom: 80%;
-  position: fixed;*/
-  top: 122px;
-  width: 95%;
+  top: 5%;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 10px;
+  height: 2vw;
+  width: 2vw;
+  margin: 0 2%;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -62,109 +67,179 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .2} 
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .2} 
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (min-width: 768px) {
-   bottom: 30px;
-   font-size: em(130px);
-}
-
-@media only screen and (min-width: 1024px) {
-   font-size: em(175px);
-}
 <!--body {background-color: skyblue;} -->
 body {
 	background-color: skyblue;
-	background-image: url("images/SandS-home.png");
+	background-image: url("images/SandS-Contact-bg.png");
 	background-position: top left;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-width: 800px;
         font-family: Helvetica, sans-serif;
 }
-.empty5 {position: relative; width: 100%; height: 650px;}
-.empty3 {position: relative; width: 100%; height: 390px;}
-.empty1 {position: relative; width: 100%; height: 180px;}
-.empty0 {position: relative; width: 100%; height: 25px;}
-.empty10 {position: relative; width: 100%; height: 1000px;}
-.center9 {margin: auto; width: 90%; padding: 1%;}
-.center5 {margin: auto; width: 50%; border: 3px solid PaleGreen; padding: 1%;}
-.left9 {position: relative; left: 2%; width: 90%; padding: 1%;}
-.left8 {position: relative; left: 25%; width: 80%; border: 3px solid PaleGreen; padding: 1%;}
-.left7 {position: relative; left: 50%; width: 73%; border: 3px solid PaleGreen; padding: 1%;}
-.right9 {position: relative; right: 20%; width: 90%; border: 3px solid PaleGreen; padding: 1%;}
-.launch {position: relative; left: 1%; width: 35%; min-width: 360px; max-width: 460px; background-color: Gainsboro; border: 2px solid silver; padding: 0px;}
+
+.empty1 {left:1% ; width: 15%;}
+.empty0 {left:1% ; height: 10%;}
+.txtc { width:80%; text-align:center;}
+.center {margin: auto; width: 90%; border: 1px; padding: 1%; }
+.center9 {margin: auto; width: 90%; border: 1px solid PaleGreen; padding: 1%; }
+.center5 {margin: auto; width: 50%;  border:1px solid PaleGreen; padding: 1%;}
+.left9 {position: relative; left: 1%; width: 95%; border: 1px solid PaleGreen; padding: 1%;}
+.left8 {position: relative; left: 25%; width: 80%; border: 1px solid PaleGreen; padding: 1%;}
+.left7 {position: relative; left: 50%; width: 70%; border: 1px solid PaleGreen; padding: 1%;}
+.left1 {position: relative; left: 3%; width: 80%; border: 1px; padding: 1%;}
+.right9 {position: relative; right: 40%; width: 70%; border: 1px solid PaleGreen; padding: 1%;}
+.emp {font-size:2vw;}
+.launch {position: relative; background-color: Gainsboro; left: 1%; width: 41vw; font-size:1vw; padding: 0;}
+.mess {margin: auto; width: 20%; border: 1px solid gold; font-size:100%; color:yellow;}
+	@media screen and (max-width: 600px) {
+	/* screen less than max */
+	.center {margin: auto; width: 90%; border: 1px; font-size:3vw; padding: 1%; }
+	.center9 {margin: auto; width: 90%; border: 1px solid PaleGreen; font-size:3vw; padding: 1%; }
+	.center5 {margin: auto; width: 50%;  border:1px solid PaleGreen; font-size:3vw; padding: 1%;}
+	.left9 {position: relative; left: 1%; width: 95%; border: 1px solid PaleGreen; font-size:3vw; padding: 1%;}
+	.left8 {position: relative; left: 25%; width: 80%; border: 1px solid PaleGreen; font-size:3vw; padding: 1%;}
+	.left7 {position: relative; left: 50%; width: 73%; border: 1px solid PaleGreen; font-size:3vw; padding: 1%;}
+	.left1 {position: relative; left: 3%; width: 100%; border: 1px; font-size:2vw; color:palegreen; padding: 1%;}
+	.right9 {position: relative; right: 40%; width: 90%; border: 1px solid PaleGreen; font-size:3vw; padding: 1%;}
+	.emp {font-size:5vw;}
+	.launch {position: relative; background-color: Gainsboro; left: 1%; width: 90%; font-size:2vw; padding: 1%;}
+	.mess {margin: auto; width: 90%; border: 1px solid green; font-size:3vw; color: palegreen;}
+	/* Slideshow container */
+	.slideshow-container {
+	  width: 90%;
+	  height: 70vw;
+	  position: relative;
+	  margin: auto;
+	}
+	/* Slide */
+	.slide {
+	  width: 100%;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* Caption text */
+	.text {
+	  /*color: lightgray; */
+	  color: palegreen;
+	  font-family: "New Century Schoolbook", serif;
+	  font-size: 3vw;
+	  padding: 1%;
+	  position: absolute;
+	  bottom: 15%;
+	  width: 95%;
+	  text-align: right;
+	}
+
+	.text4 {
+	  /*color: black;*/
+	  color: palegreen;
+	  font-family: "New Century Schoolbook", serif;
+	  font-size: 3vw;
+	  padding: 1% 5%;
+	  position: absolute;
+	  bottom: 5%;
+	  width: 80%;
+	  text-align: left;
+	}
+
+	/* Number text (1/3 etc)  color: #f2f2f2;*/
+	.numbertext {
+	  /*color: lightgray; */
+	  color: palegreen;
+	  font-size: 3vw;
+	  padding: 1% 5%;
+	  position: absolute;
+	  top: 5%;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 3vw;
+	  width: 3vw;
+	  margin: 5% 2%;
+	  background-color: lightgray;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+	.active {
+	  background-color: dimgray;
+	}
+}
+
 </style>
 </head>
 <br>
   <h2>What you may find here</h2>
-  <p>Go directly to a pages click slide, static links <a href="#launch">below</a>.</p>
-
+<div class="emp";>  <p>Go directly to a pages click slide.</p> </div> <! end of emp>
+ 
 <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext">1 / 8</div>
-    <a href="About-Us-P1.html"><img alt="Sunset bridge" width="100%" height="85%" src="images/Wash-Mo_Sunset-small.png"></a>
+    <div class=slide";><a href="About-Us-P1.html"><img style="width:100%;" src="images/Wash-Mo_Sunset-small.png" alt="Sunset bridge"></a> </div> <! end of slide>
     <div class="text">About Us</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 8</div>
-    <a href="Mission-1.html"><img alt="On mountain" width="100%" height="85%" src="images/Mountain-top-small.png"></a>
+    <div class=slide";><a href="Mission-1.html"><img style="width:100%;" src="images/Mountain-top-small.png" alt="On mountain"></a> </div> <! end of slide>
     <div class="text">Our Mission</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 8</div>
-    <a href="Seller-P1.html"><img alt="For Sale" width="100%" height="85%" src="images/Homeforsale-Small.png"></a>
+    <div class=slide";><a href="Seller-P1.html"><img style="width:100%;" src="images/Homeforsale-Small.png" alt="On mountain"></a> </div> <! end of slide>
     <div class="text">Sell your home</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext" style="color:black;">4 / 8</div>
-    <a href="Buyer-P1.html"><img alt="Buy a project" width="100%" height="85%" src="images/Buy-House-Small.png"></a>
-    <div class="text" style="color:black;">Buy a project</div>
+    <div class="numbertext">4 / 8</div>
+    <div class=slide";><a href="Buyer-P1.html"><img style="width:100%;" src="images/Buy-House-Small.png" alt="On mountain"></a> </div> <! end of slide>
+    <div class="text">Buy a project</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">5 / 8</div>
-    <a href="Agent-P1.html"><img alt="Agent" width="100%" height="85%" src="images/Agent-bg2-small.png"></a>
+    <div class=slide";><a href="Agent-P1.html"><img style="width:100%;" src="images/Agent-bg2-small.png"></a> </div> <! end of slide>
     <div class="text">Join our team:<br> Agent</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">6 / 8</div>
-    <a href="Contractor-P1.html"><img alt="Contractor" width="100%" height="85%" src="images/Contractor-Blue-small.png"></a>
+    <div class=slide";><a href="Contractor-P1.html"><img style="width:100%;" src="images/Contractor-Blue-small.png"></a> </div> <! end of slide>
     <div class="text">Join our team:<br> Contractor</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">7 / 8</div>
-    <a href="Investor-P1"><img alt="Business" width="100%" height="85%" src="images/business-back-small.png"></a>
+    <div class=slide";><a href="Investor-P1"><img style="width:100%;" src="images/business-back-small.png"></a> </div> <! end of slide>
     <div class="text">Join our team:<br> Investor</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext" style="color:black;">8 / 8</div>
-    <a href="Contact-1.html"><img alt "Contact Us" width="100%" height="85%" src="images/SandS-Contact-small-bg_2.png"></a>
-    <div class="text" style="color:black;">Contact Us</div>
+    <div class="numbertext">8 / 8</div>
+    <div class=slide";><a href="Contact-1.html"><img style="width:100%;" src="images/SandS-Contact-small.png"></a> </div> <! end of slide>
+    <div class="text">Contact Us</div>
   </div>
-</div>
 
-<div style="float: left; margin: 10px 0px 0px 75px; border: 0px solid White; padding 5px">
+<div style="float: left; width: 80%; text-align: center; margin-left:3%; margin-right:auto; border: 0px solid White; padding 1%">
+<!margin: 10px 0px 0px 75px; >
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
@@ -173,8 +248,8 @@ body {
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
-</div>
-
+</div> <! end of unnamed>
+</div> <! end of slideshow>
 <script>
 var slideIndex = 0;
 showSlides();
@@ -197,13 +272,14 @@ function showSlides() {
 }
 </script>
 <!-Page space ->
-<div class="empty1";><p><span> </p></span></div>
-<div class="empty0";><p><span style="color: silver;">Under Construction, please check back later.</p></span></div>
-<div class="center9";><img style="fixed: left; margin: 0px 5px; border: 2px solid silver; padding: 0px; width: 100%; max-width:600px;" alt="&nbsp;Logo image" src="images/Logo-2.png" /></div>
-<div class="empty1";><p><span> </p></span></div>
+<div class="empty0";><p><span> </p></span></div>
+<div class="left1";>
+<p>Under Construction / Development, please check back later.</p>
+<br>
+<div class="empty0";><p><span> </p></span></div>
 <br style="clear:both" />
-<a id="launch">
-<div class="launch";><span>&nbsp;
+</div> <! end of left1>
+<div class="launch";>
 <a href="index.html">Home</a> ||
 <a href="Seller-P1.html">Sell</a> ||
 <a href="Buyer-P1.html">Buy</a> ||
@@ -213,9 +289,9 @@ function showSlides() {
 <a href="About-Us-P1.html">About</a> ||
 <a href="Mission-1.html">Mission</a> ||
 <a href="Contact-1.html">Contact</a>
-</span></div>
-</a><br>
+</div> <! end of launch>
 <HR>
-<P align="right"; style="color:White;"> page 0 V4</P>
-<!-End of Page->
+<P align="right"; style="color:White; font-size:1vw;"> page 0 V1</P>
+<! End of Page >
+
 </body></html>
