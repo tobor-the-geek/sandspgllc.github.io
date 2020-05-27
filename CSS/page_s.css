@@ -11,7 +11,7 @@
 	.center9 {margin: auto; width: 90%; border: 1px solid PaleGreen; font-size:3vw; padding: 1%; }
 	.center5 {margin: auto; width: 70%;  border:1px solid PaleGreen; font-size:3vw; padding: 1%;}
 	.paper {float: left; width: 42%; font-size:2vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
-	.paperr {float: right; width: 90%; font-size:2vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
+	.paperr {float: right; margin-right:1%; width: 95%; font-size:2vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
 	.papero {display: block; margin: auto; width: 90%; font-size:2vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
 	.poi {display: block; margin: auto; width:95%; border: 2px solid white; padding: 1%;}
 	.boi {width:48vw; padding: 1%;} 
@@ -80,5 +80,3 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-
-	@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
