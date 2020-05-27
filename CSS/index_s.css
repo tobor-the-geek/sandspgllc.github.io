@@ -1,4 +1,9 @@
-	.footer {position: fixed; bottom: 1%; left: 90%; width: 75%; color:White; font-size:1vw;}
+	
+	h1 {color:MediumBlue;font-size: 10vw;}
+	h2 {color:MediumBlue;font-size: 8vw;}
+	h3 {color:MediumBlue;font-size: 5vw;}
+	
+	.footer {position: relative; bottom: 1%; left: 90%; width: 75%; color:White; font-size:1vw;}
 	.empty0 {left:1% ; height: 18%;}
 	.empty1 {left:1% ; width: 45%; font-size:15vw;}
 	.empty5 {left:1% ; width: 65%; font-size:65vw;}
@@ -15,7 +20,7 @@
 	.mess {margin: auto; width: 90%; border: 1px solid green; font-size:3vw; color: palegreen;}
 	/* Slideshow container */
 	.slideshow-container {
-	  width: 90%;
+	  width: 90vw;
 	  height: 70vw;
 	  position: relative;
 	  margin: auto;
@@ -93,4 +98,54 @@
 	  from {opacity: .4} 
 	  to {opacity: 1}
 	}
+
+.navbar { overflow: hidden; width:90vw; margin-left: 4vw; background-color: darkslateblue;}
+
+.navbar a {
+  float: left;
+  font-size: 3vw;
+  color: palegreen;
+  text-align: center;
+  padding: 3px 4px;
+  text-decoration: none;
+}
+
+.dropdown {float: left; overflow: hidden;}
+
+.dropdown .dropbtn {
+  font-size: 3vw;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 3px 4px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn { background-color: mediumblue;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  width:40vw;
+  min-width: 20vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  /*padding: 12px 16px;*/
+  padding: 3px 4px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {display: block;}
 
