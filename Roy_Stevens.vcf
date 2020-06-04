@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Stevens;Roy;;;
+FN:Roy Stevens
+ORG:S and S Property Group, LLC
+LOGO;MEDIATYPE=image/png:https://sandspgllc.com/images/SandS-only.png
+TITLE:Manager
+TEL;TYPE=work,voice;VALUE=uri:tel:+1-:314-924-6555
+ADR;TYPE=WORK;PREF=1;LABEL="1366 W. Main St.\nUnion\, MO 63084\nUnited States of America":;;1366 West Main Street;Union;MO;63084;United States of America
+EMAIL:Roy@SandSPGLLC.com
+ADR:;1366 West Main Street;;Union;MO;63084;
+TEL:314-924-6555
+URL;type=pref:http://sandspgllc.com
+END:VCARD
