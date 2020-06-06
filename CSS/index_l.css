@@ -98,6 +98,7 @@
 .empty0 {left:1% ; height: 10%;}
 .empty1 {left:1% ; width: 55%; font-size:10vw;}
 .empty5 {left:1% ; width: 65%; font-size:35vw;}
+.emptys {margin: auto; width:95%; font-size:0.1em;}
 .txtc { width:80%; text-align:center;}
 .center {margin: auto; width: 90%; border: 1px; padding: 1%; }
 .center9 {margin: auto; width: 90%; border: 1px solid PaleGreen; padding: 1%; }

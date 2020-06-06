@@ -2,25 +2,26 @@
 	h1 {color:MediumBlue;font-size: 8vw;}
 	h2 {color:MediumBlue;font-size: 5vw;}
 	h3 {color:MediumBlue;font-size: 3vw;}
+	/* rgb(152, 251, 152, 0.0); /*palegreen*/
 	.footer {position: relative; bottom: 1%; left: 90%; width: 75%; color:White; font-size:1vw;}
 	.empty0 {left:1% ; height: 10%;}
 	.empty1 {left:1% ; width: 55%; font-size:10vw;}
 	.empty5 {left:1% ; width: 65%; font-size:35vw;}
 	.txtc { width:80%; text-align:center;}
 	.center {margin: auto; width: 90%; border: 1px; padding: 1%; }
-	.center9 {margin: auto; width: 90%; border: 1px solid PaleGreen; padding: 1%; }
-	.center5 {margin: auto; width: 50%;  border:1px solid PaleGreen; padding: 1%;}
+	.center9 {margin: auto; width: 90%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%; }
+	.center5 {margin: auto; width: 50%;  border:1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
 	.paper {float: left; width: 40%; font-size:1vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
 	.paperr {float: right; width: 40%; font-size:1vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
 	.papero {display: block; margin: auto; width: 90%; font-size:1vw; color:cornsilk; background-color: darkslateblue; border: 1px solid White; padding: 1%;}
 	.poi {float: left; width:95%; border: 2px solid White; padding: 1%;}
 	.boi {width:20vw; padding: 1%;} 
 	.boi2 {width:12vw; padding: 1%;}
-	.left9 {position: relative; left: 1%; width: 95%; border: 1px solid PaleGreen; padding: 1%;}
-	.left8 {position: relative; left: 25%; width: 80%; border: 1px solid PaleGreen; padding: 1%;}
-	.left7 {position: relative; left: 50%; width: 70%; border: 1px solid PaleGreen; padding: 1%;}
+	.left9 {position: relative; left: 1%; width: 95%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
+	.left8 {position: relative; left: 25%; width: 80%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
+	.left7 {position: relative; left: 50%; width: 70%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
 	.left1 {position: relative; left: 3%; width: 80%; border: 1px; padding: 1%;}
-	.right9 {position: relative; right: 40%; width: 70%; border: 1px solid PaleGreen; padding: 1%;}
+	.right9 {position: relative; right: 40%; width: 70%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
 	.pictl {float:left; display:block; margin-left:auto; margin-right:auto; width: 98%; padding:0%;}
 	.pictr {display:block; margin-left:auto; margin-right:auto; width: 98%; padding:0%;}
 	.picto {display:block; margin-left:auto; margin-right:auto; width:40vw; padding:1%;}
