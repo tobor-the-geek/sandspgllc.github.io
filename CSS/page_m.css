@@ -19,7 +19,7 @@
 	.left9 {position: relative; left: 1%; width: 95%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:2vw; padding: 1%;}
 	.left8 {position: relative; left: 25%; width: 80%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:2vw; padding: 1%;}
 	.left7 {position: relative; left: 50%; width: 73%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:2vw; padding: 1%;}
-	.left1 {position: relative; left: 3%; width: 100%; border: 1px; font-size:3vw; color:rgb(152, 251, 152, 0.0); padding: 1%;}
+	.left1 {position: relative; left: 3%; width: 100%; border: 1px; font-size:2vw; color:rgb(152, 251, 152, 0.0); padding: 1%;}
 	.right9 {position: relative; right: 40%; width: 90%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:2vw; padding: 1%;}
 	.pictl {float:left; display:block; margin-left:auto; margin-right:auto; width: 98%; padding:0%;}
 	.pictr {float:right; display:block; margin-left:auto; margin-right:auto; width: 98%; padding:0%;}

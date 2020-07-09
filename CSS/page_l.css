@@ -16,11 +16,11 @@
 	.poi {float: left; width:95%; border: 2px solid White; padding: 1%;}
 	.boi {width:35vw; padding: 1%;} 
 	.boi2 {width:24vw; padding: 1%;}
-	.left9 {position: relative; left: 1%; width: 95%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
-	.left8 {position: relative; left: 25%; width: 80%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
-	.left7 {position: relative; left: 50%; width: 70%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
-	.left1 {position: relative; left: 3%; width: 80%; border: 1px; padding: 1%;}
-	.right9 {position: relative; right: 40%; width: 70%; border: 1px solid rgb(152, 251, 152, 0.0); padding: 1%;}
+	.left9 {position: relative; left: 1%; width: 95%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:1vw; padding: 1%;}
+	.left8 {position: relative; left: 25%; width: 80%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:1vw; padding: 1%;}
+	.left7 {position: relative; left: 50%; width: 70%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:1vw; padding: 1%;}
+	.left1 {position: relative; left: 3%; width: 80%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:1vw; padding: 1%;}
+	.right9 {position: relative; right: 40%; width: 70%; border: 1px solid rgb(152, 251, 152, 0.0); font-size:1vw; padding: 1%;}
 	.pictl {float:left; display:block; margin-left:auto; margin-right:auto; width: 98%; padding:0%;}
 	.pictr {display:block; margin-left:auto; margin-right:auto; width: 98%; padding:0%;}
 	.picto {display:block; margin-left:auto; margin-right:auto; width:40vw; padding:1%;}
