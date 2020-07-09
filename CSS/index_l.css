@@ -109,7 +109,7 @@
 .left1 {position: relative; left: 3%; width: 80%; border: 1px; color:red; padding: 1%;}
 .right9 {position: relative; right: 40%; width: 70%; border: 1px solid PaleGreen; padding: 1%;}
 .emp {font-size:2vw;}
-.launch {position: relative; bottom: 5%; background-color: Gainsboro; left: 1%; width: 41vw; font-size:1vw; padding: 0;}
+.launch {position: relative; bottom: 5%; background-color: LightGray; left: 1%; width: 43vw; font-size:1vw; padding: 0;}
 .mess {margin: auto; width: 20%; border: 1px solid gold; font-size:100%; color:yellow;}
 
 /* Navbar container */
