@@ -29,7 +29,7 @@
 	.footer {position: relative; left: 90%; width: 75%; color:Gold; font-size:1vw;}
 	.mess {margin: auto; width: 20%; border: 1px solid gold; font-size:100%; color:yellow;}
 
-
+	.iform {position:relative; margin-left:5%; width:95%;}
 	.obox {		/*Outer box container*/
 		float:left; align-items: flex-start; text-align: center; width:100vw; border: 0.3em solid rgba(135,206,250,0.0); font-size:1vw; padding:0.2em;
 	}
