@@ -1,128 +1,178 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";>
-<link rel="stylesheet" href="CSS/index_standard.css";>
-<link rel="stylesheet" media="screen" href="CSS/index_s.css">
-<link rel="stylesheet" media="screen and (min-width: 601px)" href="CSS/index_m.css">
-<link rel="stylesheet" media="screen and (min-width: 740px)" href="CSS/index_l.css">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="CSS/index_standard.css";>
+<link rel="stylesheet" href="CSS/Landing.css";>
+<link rel="stylesheet" media="screen" href="CSS/page_s.css">
+<link rel="stylesheet" media="screen and (min-width: 601px)" href="CSS/page_m.css">
+<link rel="stylesheet" media="screen and (min-width: 740px)" href="CSS/page_l.css">
 <title>S and S Property Group Landing Page</title>
   <!-  href="http://tobor-the-geek.github.io/sanadsproperties.com/" ->
 <style>
+
+/* Navbar container */
+.navbar {position: fixed; overflow: hidden; width:100vw; background-color: Ivory; font-family: Arial;}
+
+/* Links inside the navbar */
+.navbar a {float: left; font-size: 1vw; color: color:rgba(72,61,139,0.7); text-align: center; padding: 3px 4px; text-decoration: none;}
+  
+/* The dropdown container */
+.dropdown {float: left; overflow: hidden;}
+
+/* Dropdown button */
+.dropdown .dropbtn {font-size: 2vw; border: none; outline: none; color: DarkSlateBlue; padding: 3px 4px; 
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a lighter background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn { background-color: CornflowerBlue;}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  width: 40vw
+  min-width: 20vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 3px 4px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {background-color: lightblue;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
 </style>
 </head>
-  <h3>What you may find here</h3>
-
-<div class="emp";> <p>Click slide to directly visit page.</p> </div> <! end of emp>
- 
-<div class="slideshow";>
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 8</div>
-    <div class=slide";><a href="About-Us-P1.html"><img style="width:100%;" src="images/Wash-Mo_Sunset-small.png" alt="Sunset bridge"></a> </div> <! end of slide>
-    <div class="text">About Us</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 8</div>
-    <div class=slide";><a href="Mission-1.html"><img style="width:100%;" src="images/Mountain-top-small.png" alt="On mountain"></a> </div> <! end of slide>
-    <div class="text">Our Mission</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 8</div>
-    <div class=slide";><a href="Seller-P1.html"><img style="width:100%;" src="images/Homeforsale-Small.png" alt="On mountain"></a> </div> <! end of slide>
-    <div class="text">Sell your home</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 8</div>
-    <div class=slide";><a href="Buyer-P1.html"><img style="width:100%;" src="images/Buy-House-Small.png" alt="On mountain"></a> </div> <! end of slide>
-    <div class="text">Buy a project</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 8</div>
-    <div class=slide";><a href="Agent-P1.html"><img style="width:100%;" src="images/Agent-bg2-small.png"></a> </div> <! end of slide>
-    <div class="text">Join our team:<br> Agent</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 8</div>
-    <div class=slide";><a href="Contractor-P1.html"><img style="width:100%;" src="images/Contractor-Blue-small.png"></a> </div> <! end of slide>
-    <div class="text">Join our team:<br> Contractor</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">7 / 8</div>
-    <div class=slide";><a href="Investor-P1"><img style="width:100%;" src="images/business-back-small.png"></a> </div> <! end of slide>
-    <div class="text">Join our team:<br> Investor</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">8 / 8</div>
-    <div class=slide";><a href="Contact-1.html"><img style="width:100%;" src="images/SandS-Contact-small.png"></a> </div> <! end of slide>
-    <div class="text">Contact Us</div>
-  </div>
-
-  <div class="dline";>
-  <!margin: 10px 0px 0px 75px; >
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
- </div> <! end of dline>
- <div class="navbar">
+  <! DarkSlateBlue #483D8B rgb(72, 61, 139)>
+<div class="navbar">
+  <a name="#bar"></a>
+  <a href="#top">Top,</a>
+  <a href="#sell">Sell Your Home,</a>
+  <a href="#buy">Buy A project,</a>
+  <a href="#join">Work With Us,</a>
+  <a href="SS">S and S Story</a>
+  <div class="dropdown">
+    <button class="dropbtn">Other pages
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
 	<a href="Contact-1.html">Contact Us</a>
-	<a href="About-Us-P1.html">About Us</a>
 	<a href="Mission-1.html">Our Mission</a>
 	<a href="Seller-P1.html">Sell your home</a>
 	<a href="Buyer-P1.html">Buy a Project</a>
-	<a name="#nav">Join our team: </a>
-	<a href="Agent-P1.html">Agent</a>
-	<a href="Contractor-P1.html">Contractor</a>
-	<a href="Investor-P1.html">Investor</a>
- </div> <! end of navbar>
-</div> <! end of slideshow>
-<script>
-var slideIndex = 0;
-showSlides();
+	<a href="Agent-P1.html">Join our team: Agent</a>
+	<a href="Contractor-P1.html">Join our team: Contractor</a>
+	<a href="Investor-P1.html">Join our team: Investor</a>
+    </div> <! end of dropdown-content>
+  </div><! end of dropdown><br>
+  <div class="navpic"; style=""><img width=100%; alt="small-logo" src="images/SandS-only_small.png" \> </div> <!end of navpic>
+</div> <! end of navbar>
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
-}
-</script>
-<!-Page space ->
+<! Chocolate rgb(210,105,30)>
+<div class="obox"; style="background-image: url(images/My-Metro_70.png); background-position: top left; background-size: cover; background-repeat: no-repeat; height:62em;">
+	<a name="top"></a><br><br>
+	<div class="overlay"; style=""><br>Where we call home turf</div> <! end of overlay>
+	<div class="overlay"; style=""><i>We Buy Houses,<br>Help Local Home Owners,<br>Create Future Homes</i></div> <! end of overlay>
+<br><br><a href="#top" style="color:rgba(210,105,30,1.0);">Return to top</a><br><br>
+</div> <! end of obox>
+
+<div class="obox";> 
+	<a name="sell"></a>
+	<div class="pictr"; style="width:95%; padding:5%"><img width=85%; alt="Home for sale" src="images/Homeforsale.png" \>
+	</div> <! end of pictr>
+	<div class="emp"; style="position: relative; margin-top:10em; color:rgba(72,61,139,1.0);"><br>Sell Your House</div> <! end of emp><br><br>
+	<div class="center9";>We work with homeowners all over our local area with a variety of circumstances.. Let us show you how we can help you with a one-on-one conversation to analyze your situation, expectations, and timeframe for selling. We can either submit a cash, as-is offer within 24 hours to purchase your property or come up with a plan to list your home for sale on the open market. Our focus is doing what’s best and what’s right for you.<br><br>
+	<! DeepSkyBlue #00BFFF rgb(0, 191, 255)>
+	<a href="Quote-P1.html"> <div class="obox9"; style=""> <br> <div class="emp";>
+		Get an OFFER
+		</div> <! end of emp>
+	</div> <! end of obox9></a>
+	<p><a href="#top">Return to top</a></p>
+	</div> <! end of center9>
+</div> <! end of obox>
+
+<div class="obox";> 
+	<a name="buy"></a>
+	<div class="pictr"; style="width:95%; padding:5%"><img width=85%; alt="Buy a project" src="images/Buy-House.png" \>
+	</div> <! end of pictr>
+	<div class="emp"; style="position: relative; margin-top:10em; color:rgba(72,61,139,1.0);"><br>Buy a Project</div> <! end of emp><br><br>
+	<div class="center9";>Our team works diligently to transform each of our properties into a home full of distinction, making sure our home buyers feel they’ve found something special. These properties don’t become a "home" until you have the keys, so rest assured we’ve managed every aspect of the renovation, ensuring the home has been transformed with the utmost care, quality, and attention to detail you expect when purchasing your new home.
+<br><br>
+	<a href="Showcase-P1.html"> <div class="obox9"; style=""> <br> <div class="emp";>
+		Browse our projects
+		</div> <! end of emp>
+	</div> <! end of obox9></a>
+	<p><a href="#top">Return to top</a></p>
+	</div> <! end of center9>
+</div> <! end of obox>
+
+<div class="obox";> 
+	<a name="join"></a>
+	<div class="pictr"; style="width:95%; padding:5%"><img width=85%; alt="Join our Team" src="images/Mesh.png" \>
+	</div> <! end of pictr>
+	<div class="emp"; style="position: relative; margin-top:10em; color:rgba(72,61,139,1.0);"><br>Work With Us</div> <! end of emp><br><br>
+	<div class="center9";>We work hand-in hand with local Real Estate Agents to submit cash offers on properties that fit our criteria. We focus on submitting offers with strong, yet flexible terms that benefit the seller based on their circumstances. Our goal is to perform on each and every transaction - submitting our Earnest Money Deposit, signing off on all Contingencies, and wiring our closing funds on the Close of Escrow date are the top priorities for our Acquisitions Team.
+<br><br>
+	<a href="Realtor-SP.html"> <div class="obox9";> <span><br> <div class="emp";>
+		Refer an Opportunity
+		</div> <! end of emp>
+		<br><br>
+	</span></div> <! end of obox9></a>
+	<p><a href="#top">Return to top</a></p>
+	</div> <! end of center9>
+</div> <! end of obox>
+
+<div class="obox";> 
+	<a name="SS"></a>
+	<div class="pictr"; style="width:95%; padding:5%"><img width=85%; alt="S and S Story" src="images/SandS-Contact-bg_enhanced.png" \>
+	</div> <! end of pictr>
+	<div class="emp"; style="position: relative; margin-top:10em; color:rgba(72,61,139,1.0);"><br>S and S Story</div> <! end of emp><br><br>
+	<div class="center9";>See the details of <b>S and S Property Group, LLC</b> Our Stroy, Our Mission, Our Business Model. Our team implements the Core Values on a daily basis. Our goal is to provide the local area Home Sellers with strong cash offers, flexible escrow periods, and seamless AS-IS transactions in an effort to make selling your home as painless as possible!<br><br>
+
+	<a href="Contact-1.html"><div class="ltbox";><span style="margin:auto;"> <br><br><br> <div class="emp";>
+		Contact S and S 
+		</div> <! end of emp>
+		<br><br>
+	</span></div> <! end of mtbox></a>
+
+	<a href="#top"><div class="ltbox"; style="width:10%;"><span style="margin:auto;"> <br><br><br> <div class="emp"; style="color:rgba(72,61,139,0.0);"> 
+		Let Love  
+		</div> <! end of emp><br><br>
+	</span></div> <! end of mtbox></a>
+
+	<a href="Top.html"> <div class="ltbox";><span style="margin:auto;"> <br><br><br> <div class="emp";>
+		Read More About S and S
+		</div> <! end of emp><br>
+	</span></div> <! end of mtbox></a>
+	<br><br>
+	<p><a href="#top">Return to top</a></p>
+	</div> <! end of center9>
+</div> <! end of obox>
+
+<hr>
+<!- End of Section 2 ->
 <br style="clear:both" />
-<div class="empty1";><p style="color:white;"><span> </p></span></div> <! end of empty1>
-Welcome to our site, thank you for visiting.
-<br>
-<div class="empty5";><p style="color:darkslategray;"><span> </p></span></div> <! end of empty5>
-<br style="clear:both" />
-</div> <! end of left1>
 <div class="emptys"; style="color:rgb(255, 245, 238, 0.0);">
  Let love and peace rule the world!
 </div> <! end of emptys>
-<div class="launch";>
+<div class="launch"; style="background-color:transparent;">
+<a href="About-Us-P2.html">Our Story</a> ||
 <a href="index.html">Home</a> ||
 <a href="Seller-P1.html">Sell</a> ||
 <a href="Buyer-P1.html">Buy</a> ||
@@ -133,8 +183,9 @@ Welcome to our site, thank you for visiting.
 <a href="Mission-1.html">Mission</a> ||
 <a href="Contact-1.html">Contact</a>
 </div> <! end of launch>
+<p>
 <HR>
-<div class="footer";> page 0 V2</div> <! end of footer>
-<! End of Page >
-
+<P class="footer";> page 1 v1</P>
+  <! End of Page 1 >
+<! style="font-size: x-large;" >
 </body></html>
