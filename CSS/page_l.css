@@ -4,7 +4,7 @@
 	h3 {color:MediumBlue;font-size: 3vw;}
 	a:hover img {transform: scale(1.2);box-shadow: 0 0 10px rgba(0,0,0,0.4);}
 	/* rgb(152, 251, 152, 0.0); /*palegreen*/
-	.empty0 {left:1% ; height: 10%;}
+	.empty0 {left:1% ; height: 8em;}
 	.empty1 {left:1% ; width: 55%; font-size:10vw;}
 	.empty5 {left:1% ; width: 65%; font-size:35vw;}
 	.txtc { width:80%; text-align:center;}
@@ -40,8 +40,8 @@
 		transform: scale(1.1);
     		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	}
-	.overlay {position: relative; margin-top:10em; color:rgba(210,105,30,1.0);}
-	.overlay2 {position: relative; margin-top:10em; color:rgba(210,105,30,1.0);}
+	.overlay {position: relative; margin-top:2em; color:rgba(210,105,30,1.0); font-size:3em;}
+	.overlay2 {position: relative; margin-top:1.5em; color:rgba(210,105,30,1.0); font-size:2.5em;}
 	.iform {position:relative; margin-left:5%; width:95%;}
 	.obox {		/*Outer box container*/
 		float:left; align-items: flex-start; text-align: center; width:100vw; border: 0.3em solid rgba(135,206,250,0.0); font-size:1vw; padding:0.2em;
