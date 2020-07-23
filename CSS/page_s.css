@@ -26,7 +26,7 @@
 	.picto {display:block; margin-left:auto; margin-right:auto; width:80vw; padding:1%;}
 	.emp {font-size:5vw;}
 	.overlay {position: relative; margin-top:30px; color:rgba(95,47,13,1.0); font-size:4em;}
-	.overlay2 {position: relative; margin-top:15px; color:rgba(95,47,13,1.0);}
+	.overlay2 {position: relative; margin-top:15px; color:rgba(95,47,13,1.0); font-size:4em;}
 	.launch {position: relative; background-color: Gainsboro; left: 1%; width: 90vw; font-size:2vw; padding: 0%;}
 	.footer {position: relative; left: 90%; width: 75%; color:red; font-size:2vw;}
 	.mess {margin: auto; width: 90%; border: 1px solid green; font-size:3vw; color: palegreen;}
