@@ -40,8 +40,8 @@
 		transform: scale(1.1);
     		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	}
-	.overlay {position: relative; margin-top:2em; color:rgba(95,47,13,1.0); font-size:3em;}
-	.overlay2 {position: relative; margin-top:1.5em; rgba(95,47,13,1.0); font-size:2.5em;}
+	.overlay {position: relative; margin:auto; text-align:center; /*color:rgba(95,47,13,1.0);*/ color:rgba(72,61,139,1.0); font-size:1.5em;}
+	.overlay2 {position: relative; margin:auto; text-align:center; /*color:rgba(95,47,13,1.0);*/ color:rgba(72,61,139,1.0); font-size:1.5em;}
 	.iform {position:relative; margin-left:5%; width:95%;}
 	.obox {		/*Outer box container*/
 		float:left; align-items: flex-start; text-align: center; width:100vw; border: 0.3em solid rgba(135,206,250,0.0); font-size:1vw; padding:0.2em;

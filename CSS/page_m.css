@@ -41,8 +41,8 @@
 		transform: scale(1.2);
     		box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	}
-	.overlay {position: relative; margin-top:2em; color:rgba(95,47,13,1.0); font-size:4em;}
-	.overlay2 {position: relative; margin-top:1.5em; rgba(95,47,13,1.0); font-size:3.5em;}
+	.overlay {position: relative; margin:auto; text-align:center; /*color:rgba(95,47,13,1.0);*/ color:rgba(72,61,139,1.0); font-size:2em;}
+	.overlay2 {position: relative; margin:auto; text-align:center; /*color:rgba(95,47,13,1.0);*/ color:rgba(72,61,139,1.0); font-size:2em;}
 /* LightSkyBlue #87CEFA rgba(135,206,250,1.0) */
 
 	.iform {position:relative; margin-left:10%; width:95%;}
