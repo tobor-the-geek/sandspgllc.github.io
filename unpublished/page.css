@@ -1,0 +1,54 @@
+/* revised 200722 09:00 RES */
+
+        body {
+		background-color: #FCFCE8;	
+		min-width: 800px;
+		max-width: 2400px;
+		min-height: 400px;
+		max-height: 1200px;
+		margin: 5px 5px 5px 5px;
+	}
+
+	.empty0 {left:5% ; width:90%; color: rgba(0,0,0,0.0);}
+	.paper {float: left; width: 35%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; max-width: 26em; border: 2px solid Silver; padding: 1%;}
+	.paperb {margin: auto; width: 96%; font-size:0.9em; color: cornsilk; background-color: darkslateblue; max-width: 1024px; border: 3px solid PaleGreen; padding: 1%;}
+	.paperr {float: right; width: 35%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; border: 2px solid Silver; padding: 1%;}
+	.paperc {position: relative; margin: auto; width: 75%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; max-width: 72em; border: 3px solid Silver; padding: 1%;}
+	.papero {width: 35%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; max-width: 26em; border: 2px solid Silver; padding: 1%;}
+	.small3 {float: right; left: 60%; width: 30%; min-width: 24em; font-size:0.9em; color:darkslateblue; background-color:cornsilk; border: 3px solid silver; padding: 1%;}
+	.poi {float: left; width:95%; border: 2px solid silver; padding: 1%}
+	.iop {float: left; width:60%; border:2px; padding:1%}
+	.center {position: relative; width: 85%; margin: auto; padding: 1%}
+	.centers {position: static; width: 80%; margin: auto; padding: 1%}
+	.centerg {position: relative; width: 55%; margin-left: 5%; margin-right: auto; font-size:1.0em; color:dimgray; background-color: whitesmoke; padding:1px;}
+	.centergs {position: relative; width: 90%; margin-left: 7%; font-size:1.0em; color:dimgray; background-color: whitesmoke; padding:1px;}
+	.left8 {position: relative; left: 15%; width: 60%; border: 3px padding: 1%;}
+	.left7 {position: fixed; left: 3%; width: 45%; bottom: 20%; padding: 0%;}
+	.right9 {position: relative; right: 10%; width: 90%; max-width:1024px; border: 3px padding: 1%;}
+	.pictl {float:left; display:block; margin-left:2%; width: 30%; padding:1%;}
+	.pictr {float:right; display:block; margin-right:20%; width: 25%;padding:1%;}
+	.picto {display:block; margin-left:65%; padding: 0px; width: 20%; padding:1%;}
+	.pictc {float:left; display:block; margin:auto; width: 40%; padding:1%;}
+	.emp {font-size:1.5em;}
+	.emh {font-size:1.2em;}
+	.launch {position: fixed; left: 1%; width: 5%; max-width: 12em; bottom:2%; background-color: Gainsboro; color:charcoal; padding: 1px;}
+	.bottom {position: fixed; margin: auto; bottom: 1%; font-size:0.75em; padding:1%;}
+	/*.footer {position: relative; left: 90%; width: 75%; margin: auto; font-size:1.5em;}*/
+	.mess {margin: auto; width: 90%; border: 1px solid green; font-size:3vw; color: palegreen;}
+	.txt {width:100%;}
+	.txtc {position: relative; margin-left:10%; width: 75%; text-align: center;}
+
+	.zoh { /* Zoom on hover */
+		display:block; margin:auto; overflow: hidden; width: 95%; padding:0%;
+		/*border: 2px solid palegreen;*/
+	}
+	.zoh img {
+		transition: transform .5s ease;
+	}
+	.zoh:hover img {
+		transform: scale(1.3);
+    		box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	}
+	.overlay {position: relative; margin-top:1.5em; color:rgba(95,47,13,1.0); font-size:5em;}
+	.overlay2 {position: relative; margin-top:1.1em; color:rgba(95,47,13,1.0); font-size:4.5em;}
+
