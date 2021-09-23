@@ -10,7 +10,7 @@
 	}
 
 	.empty0 {left:5% ; width:90%; color: rgba(0,0,0,0.0);}
-	.paper {float: left; width: 35%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; max-width: 26em; border: 2px solid Silver; padding: 1%;}
+	.paper {float:left; width: 35%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; max-width: 26em; border: 2px solid Silver; padding: 1%;}
 	.paperb {margin: auto; width: 96%; font-size:0.9em; color: cornsilk; background-color: darkslateblue; max-width: 1024px; border: 3px solid PaleGreen; padding: 1%;}
 	.paperr {float: right; width: 35%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; border: 2px solid Silver; padding: 1%;}
 	.paperc {position: relative; margin: auto; width: 75%; font-size:0.9em; color:cornsilk; background-color: darkslateblue; max-width: 72em; border: 3px solid Silver; padding: 1%;}
@@ -32,7 +32,9 @@
 	.emp {font-size:1.5em;}
 	.emh {font-size:1.2em;}
 	.launch {position: fixed; left: 1%; width: 5%; max-width: 12em; bottom:2%; background-color: Gainsboro; color:charcoal; padding: 1px;}
-	.bottom {position: fixed; margin: auto; bottom: 1%; font-size:0.75em; padding:1%;}
+	.bottom {position: static; margin: auto; bottom: 1%; font-size:0.75em; color:rgba(218,165,32,0.5); padding:1%;}
+	.bottomleft {position: static; bottom: 5vw; left: 1em; width:25em; font-size: 1.25em; text-align: center; background-color: Gainsboro; color:charcoal; padding: 1px;}
+		/*goldenrod=218,165,32*/
 	/*.footer {position: relative; left: 90%; width: 75%; margin: auto; font-size:1.5em;}*/
 	.mess {margin: auto; width: 90%; border: 1px solid green; font-size:3vw; color: palegreen;}
 	.txt {width:100%;}
