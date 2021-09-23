@@ -33,7 +33,7 @@
 	.emh {font-size:1.2em;}
 	.launch {position: fixed; left: 1%; width: 5%; max-width: 12em; bottom:2%; background-color: Gainsboro; color:charcoal; padding: 1px;}
 	.bottom {position: static; margin: auto; bottom: 1%; font-size:0.75em; color:rgba(218,165,32,0.5); padding:1%;}
-	.bottomleft {position: static; bottom: 5vw; left: 1em; width:25em; font-size: 1.25em; text-align: center; background-color: Gainsboro; color:charcoal; padding: 1px;}
+	.bottomleft {position: static; bottom: 5vw; left: 1em; width:35em; font-size: 1.25em; text-align: center; background-color: Gainsboro; color:charcoal; padding: 1px;}
 		/*goldenrod=218,165,32*/
 	/*.footer {position: relative; left: 90%; width: 75%; margin: auto; font-size:1.5em;}*/
 	.mess {margin: auto; width: 90%; border: 1px solid green; font-size:3vw; color: palegreen;}
