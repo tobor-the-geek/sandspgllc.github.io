@@ -2,9 +2,9 @@
 
         body {
 		background-color: #FCFCE8;	
-		min-width: 800px;
+		min-width: 600px;
 		max-width: 2400px;
-		min-height: 400px;
+		min-height: 300px;
 		max-height: 1200px;
 		margin: 5px 5px 5px 5px;
 	}
