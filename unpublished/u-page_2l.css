@@ -18,7 +18,7 @@
 
 		.bottomleft {
 		  position: absolute;
-		  top: 75vw;
+		  top: 60vw;
 		  left: 1em;
 		  font-size: 0.8em;
 		}
@@ -42,4 +42,4 @@
 		}
 		
 		.empty2 { font-size:0.8em; color:rgba(135, 206, 250, 0.0);}
-		.page { font-size:0.8em; color:rgba(0, 0, 255, 0.0);
+		.page { font-size:0.8em; color:rgba(0, 0, 255, 0.8);
